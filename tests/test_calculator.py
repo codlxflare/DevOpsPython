@@ -1,5 +1,5 @@
 import pytest
-from src.calculator.py import sum, minus, multiplication, divide
+from src.calculator import sum, minus, multiplication, divide
 
 def test_sum():
     assert sum(1, 2) == 3
